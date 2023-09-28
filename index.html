@@ -10,7 +10,11 @@
 
       gtag('config', 'UA-142539004-1');
     </script>
-
+      <script>
+        window.onload = () => {
+          let gameCoordinator = new GameCoordinator();
+        }
+      </script>
     <script src='build/app.js'></script>
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico'>
     <link href='https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap' rel='stylesheet'>
@@ -137,12 +141,6 @@
           by playing on an unsupported browser.
         </div>
       </div>
-
-      <script>
-        window.onload = () => {
-          let gameCoordinator = new GameCoordinator();
-        }
-      </script>
     </div>
   </body>
 </html>
